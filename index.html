@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diff Tool</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="item-wrapper">
+        <label>Original text</label>
+        <textarea id="originalTA" rows="10"></textarea>
+      </div>
+      <div class="item-wrapper">
+        <label>Modified text</label>
+        <textarea id="modifiedTA" rows="10"></textarea>
+      </div>
+    </div>
+    <button id="diffButton">Diff</button>
+    <div>
+      <p id="result"></p>
+    </div>
+    <script src="diff.js"></script>
+  </body>
+</html>
